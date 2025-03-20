@@ -11,17 +11,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "heading": {
-      "type": "string"
-    },
-    "headerImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files"
-      ]
+    "welcomeMessage": {
+      "type": "blocks"
     }
   }
 }

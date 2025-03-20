@@ -11,9 +11,12 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "blocks"
     }
   }
 }
