@@ -32,6 +32,11 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }
