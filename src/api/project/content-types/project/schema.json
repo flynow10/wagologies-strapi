@@ -17,6 +17,18 @@
     },
     "description": {
       "type": "blocks"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "preview": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

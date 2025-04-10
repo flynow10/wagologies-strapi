@@ -4,20 +4,24 @@
   "info": {
     "singularName": "header",
     "pluralName": "headers",
-    "displayName": "Header"
+    "displayName": "Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "heading": {
-      "type": "string",
-      "required": true
-    },
     "buttons": {
       "type": "component",
       "repeatable": true,
       "component": "shared.button"
+    },
+    "headings": {
+      "displayName": "Heading text",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.heading-text",
+      "required": true
     }
   }
 }

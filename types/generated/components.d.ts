@@ -1,5 +1,17 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface HeaderHeadingText extends Struct.ComponentSchema {
+  collectionName: 'components_header_heading_texts';
+  info: {
+    description: '';
+    displayName: 'Heading text';
+    icon: 'bulletList';
+  };
+  attributes: {
+    text: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedButton extends Struct.ComponentSchema {
   collectionName: 'components_shared_buttons';
   info: {
@@ -76,6 +88,7 @@ export interface SharedSlider extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'header.heading-text': HeaderHeadingText;
       'shared.button': SharedButton;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_heading_texts",
+  "info": {
+    "displayName": "Heading text",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
