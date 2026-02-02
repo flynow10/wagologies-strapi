@@ -10,9 +10,11 @@
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
     "welcomeMessage": {
-      "type": "blocks"
+      "type": "blocks",
+      "required": true
     }
   }
 }
