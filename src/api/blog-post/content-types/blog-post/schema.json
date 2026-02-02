@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "blocks"
+      "type": "blocks",
+      "required": true
     },
     "body": {
       "type": "blocks",
