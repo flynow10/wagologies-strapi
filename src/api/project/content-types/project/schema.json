@@ -31,6 +31,14 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "githubLink": {
+      "type": "string"
+    },
+    "contributors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
     }
   }
 }
