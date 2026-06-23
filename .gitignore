@@ -122,6 +122,7 @@ coverage
 ############################
 
 .env
+.script_envs
 license.txt
 exports
 .strapi

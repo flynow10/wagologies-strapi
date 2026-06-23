@@ -1,0 +1,3 @@
+# Your envs should be put in a file named ".script_env"
+INSTANCE_ID="<instance_id>"
+ACCESS_URL="<url_of_strapi_portal_access>"
