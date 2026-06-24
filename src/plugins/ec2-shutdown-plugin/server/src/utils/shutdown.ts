@@ -4,7 +4,7 @@ export async function shutdownServer(): Promise<true | string> {
   try {
     if (process.env.NODE_ENV === 'production') {
       await new Promise((res, rej) =>
-        exec('shutdown -h now', (err, stdout, stderr) => {
+        exec('sudo ushutdown', (err, stdout, stderr) => {
           if (err) {
             rej(stderr);
           }

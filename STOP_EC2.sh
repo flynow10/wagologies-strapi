@@ -27,7 +27,7 @@ is_stopped=$(get_status)
 
 attempt_count=0
 while [[ "$is_stopped" != "stopped" ]]; do
-  echo -en "\e[1A\e[K- Current status: ${MAGENTA}${is_stopped}${ENDCOLOR}"
+  echo -en "\r\e[K- Current status: ${MAGENTA}${is_stopped}${ENDCOLOR}"
   sleep 5
   is_stopped=$(get_status)
   attempt_count=$((attempt_count + 1))
