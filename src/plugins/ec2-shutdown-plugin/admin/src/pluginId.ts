@@ -1,0 +1,1 @@
+export const PLUGIN_ID = "ec2-shutdown-plugin";

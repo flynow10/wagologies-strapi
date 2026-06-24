@@ -1,0 +1,6 @@
+{
+  "plugin.name": "EC2 Control",
+  "widget.name": "EC2 Shutdown Button",
+  "shutdown.notification.failure": "Unable to shutdown the EC2 instance!",
+  "shutdown.notification.success": "Successfully shutdown EC2 instance!"
+}

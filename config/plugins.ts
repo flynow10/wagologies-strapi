@@ -25,4 +25,8 @@ export default ({ env }) => ({
       },
     },
   },
+  "ec2-shutdown-plugin": {
+    enabled: true,
+    resolve: "./src/plugins/ec2-shutdown-plugin",
+  },
 });
